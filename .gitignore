@@ -192,3 +192,17 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+
+# Internal
+__internal/
+
+# Mac stuff
+.DS_Store
+
+# This is added by DVC to ignore the data folder
+# when issuing the dvc add data command
+/data
+/model.weights.h5
+.npy
